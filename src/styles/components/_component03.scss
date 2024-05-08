@@ -1,0 +1,37 @@
+.component03 {
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 200px;
+
+    &__description {
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    &__title {
+        text-align: center;
+        font-family: "Poetsen One", sans-serif;
+        margin-top: 30px;
+    }
+    img {
+        max-width: 250px;
+        width: 100%;
+        position: absolute;
+    }
+
+    &__text {
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            display: flex;
+        }
+}

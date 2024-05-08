@@ -1,0 +1,15 @@
+.footer {
+    padding: 15px;
+    background-color: rgba(236, 234, 117, 0.404);
+    box-shadow: 1px 1px 10px;
+    height: 40px;
+    text-align: center;
+    
+    &__title {
+        font-family: "Poetsen One", sans-serif;
+    }
+
+    @media (max-width:1024px) {
+        height: 100%;
+    }
+}
